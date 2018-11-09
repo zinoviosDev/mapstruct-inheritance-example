@@ -12,9 +12,9 @@ import org.mapstruct.*;
  * </p>
  */
 @MapperConfig
-public interface VehicleMapperConfig extends TransportationMeanMapperConfig {
+public interface VehicleMapperConfig extends TransportationObjectMapperConfig {
 
-  @InheritConfiguration(name = "mapTransportationMean")
+  @InheritConfiguration(name = "mapTransportationObject")
   @Mappings({
           @Mapping(source = "mainBreak.plate", target= "breakPlate"),
           @Mapping(source = "mainBreak.body", target= "breakBody")

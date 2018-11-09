@@ -14,7 +14,7 @@ import java.util.List;
  */
 @Data
 @ToString(callSuper = true)
-public abstract class Vehicle extends TransportationMean {
+public abstract class Vehicle extends TransportationObject {
 
   private Break mainBreak;
 

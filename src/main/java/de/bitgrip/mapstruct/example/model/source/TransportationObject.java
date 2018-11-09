@@ -12,7 +12,7 @@ import java.util.List;
  * </p>
  */
 @Data
-public abstract class TransportationMean {
+public abstract class TransportationObject {
 
   private String id;
 
@@ -26,8 +26,8 @@ public abstract class TransportationMean {
 
   private Length length;
 
-  protected TransportationMean(String id, List<String> transportationObjects, Integer weight, Length width,
-                               Length height, Length length) {
+  protected TransportationObject(String id, List<String> transportationObjects, Integer weight, Length width,
+                                 Length height, Length length) {
     this.id = id;
     this.transportationObjects = transportationObjects;
     this.weight = weight;

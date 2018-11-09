@@ -41,10 +41,10 @@ public class Application {
     /*
     Log output:
 
-    Car: Car(super=Vehicle(super=TransportationMean(id=e6569917-2460-4e74-82b8-96df7415796b,
+    Car: Car(super=Vehicle(super=TransportationObject(id=e6569917-2460-4e74-82b8-96df7415796b,
     transportationObjects=[Egon], weight=100, width=10mm, height=10m, length=4cm), mainBreak=Break(plate=good plate,
     body=my break)), roof=Great roof)
-    CarDTO CarDTO(super=VehicleDTO(super=TransportationMeanDTO(super=de.bitgrip.mapstruct.example.model.target
+    CarDTO CarDTO(super=VehicleDTO(super=TransportationObjectDTO(super=de.bitgrip.mapstruct.example.model.target
     .CarDTO@95d58ee2, id=e6569917-2460-4e74-82b8-96df7415796b, transportationObjects=[Egon], weight=100, width=10mm,
     height=10m, length=4cm), breakPlate=good plate, breakBody=my break), roof=Great roof)
 
@@ -68,10 +68,10 @@ public class Application {
     /*
     Log output:
 
-    Motorbike: Motorbike(super=Vehicle(super=TransportationMean(id=3cc503c2-3d8c-4892-a4ae-cb8c2c2e947e,
+    Motorbike: Motorbike(super=Vehicle(super=TransportationObject(id=3cc503c2-3d8c-4892-a4ae-cb8c2c2e947e,
     transportationObjects=[Ina], weight=50, width=8mm, height=10m, length=2cm), mainBreak=Break(plate=bad plate,
     body=my motorbike break)), wheels=2)
-    MotorbikeDTO MotorbikeDTO(super=VehicleDTO(super=TransportationMeanDTO(super=de.bitgrip.mapstruct.example.model
+    MotorbikeDTO MotorbikeDTO(super=VehicleDTO(super=TransportationObjectDTO(super=de.bitgrip.mapstruct.example.model
     .target.MotorbikeDTO@3d, id=3cc503c2-3d8c-4892-a4ae-cb8c2c2e947e, transportationObjects=[Ina], weight=50,
     width=8mm, height=10m, length=2cm), breakPlate=bad plate, breakBody=my motorbike break), wheels=2)
 
@@ -99,11 +99,11 @@ public class Application {
     /*
     Log output:
 
-    Airplane: Airplane(super=FlyingVehicle(super=Vehicle(super=TransportationMean
+    Airplane: Airplane(super=FlyingVehicle(super=Vehicle(super=TransportationObject
     (id=4d664f6e-de81-4383-9a6f-668f089d07f8, transportationObjects=[Marcel, Elena], weight=50, width=8mm,
     height=10m, length=2cm), mainBreak=Break(plate=very good plate, body=my airplane break)), maxAltitude=10000m),
     wings=Brightwing)
-    AirplaneDTO Airplane(super=FlyingVehicle(super=Vehicle(super=TransportationMean
+    AirplaneDTO Airplane(super=FlyingVehicle(super=Vehicle(super=TransportationObject
     (id=4d664f6e-de81-4383-9a6f-668f089d07f8, transportationObjects=[Marcel, Elena], weight=50, width=8mm,
     height=10m, length=2cm), mainBreak=Break(plate=very good plate, body=my airplane break)), maxAltitude=10000m),
     wings=Brightwing)
