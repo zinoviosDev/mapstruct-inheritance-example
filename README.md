@@ -1,5 +1,5 @@
 # mapstruct-inheritance-example
-This mapstruct example shows you a way, how to implement a mapping from a model with a type hierarchy using Mapstruct @InheritConfiguration on MapperConfigs.
+This mapstruct example shows, how to implement a mapping from a model with a type hierarchy using Mapstruct @InheritConfiguration on MapperConfigs.
 
 Please check the [mapstruct documentation](http://mapstruct.org/documentation/stable/reference/html).
 
