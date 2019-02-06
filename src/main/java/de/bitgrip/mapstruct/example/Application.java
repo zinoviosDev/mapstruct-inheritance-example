@@ -4,9 +4,9 @@ import de.bitgrip.mapstruct.example.mapper.AirplaneMapper;
 import de.bitgrip.mapstruct.example.mapper.CarMapper;
 import de.bitgrip.mapstruct.example.mapper.MotorbikeMapper;
 import de.bitgrip.mapstruct.example.model.source.*;
-import de.bitgrip.mapstruct.example.model.target.AirplaneDTO;
-import de.bitgrip.mapstruct.example.model.target.CarDTO;
-import de.bitgrip.mapstruct.example.model.target.MotorbikeDTO;
+import de.bitgrip.mapstruct.example.model.dest.AirplaneDTO;
+import de.bitgrip.mapstruct.example.model.dest.CarDTO;
+import de.bitgrip.mapstruct.example.model.dest.MotorbikeDTO;
 import org.mapstruct.factory.Mappers;
 
 import java.util.ArrayList;
@@ -94,7 +94,7 @@ public class Application {
 
     System.out.println("Airplane: " + airplane.toString());
     AirplaneDTO airplaneDTO = Mappers.getMapper(AirplaneMapper.class).mapAirplane(airplane);
-    System.out.println("AirplaneDTO " + airplane.toString());
+    System.out.println("AirplaneDTO " + airplaneDTO.toString());
 
     /*
     Log output:

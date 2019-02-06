@@ -2,7 +2,7 @@ package de.bitgrip.mapstruct.example.mapper;
 
 import de.bitgrip.mapstruct.example.mapper.config.TrackVehicleMapperConfig;
 import de.bitgrip.mapstruct.example.model.source.TrackVehicle;
-import de.bitgrip.mapstruct.example.model.target.TrackVehicleDTO;
+import de.bitgrip.mapstruct.example.model.dest.TrackVehicleDTO;
 import org.mapstruct.InheritConfiguration;
 import org.mapstruct.Mapper;
 
