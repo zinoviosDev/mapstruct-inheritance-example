@@ -1,6 +1,5 @@
 package de.bitgrip.mapstruct.example.model.dest;
 
-import de.bitgrip.mapstruct.example.model.source.Length;
 import lombok.Data;
 import lombok.ToString;
 
@@ -21,8 +20,8 @@ public abstract class VehicleDTO extends TransportationObjectDTO {
 
   private String breakPlate;
 
-  public VehicleDTO(String id, List<String> transportationObjects, Integer weight, Length width, Length height, Length length, String breakPlate, String body) {
-    super(id, transportationObjects, weight, width, height, length);
+  public VehicleDTO(String id, List<String> transportationObjects, Integer weight, String width, String height, String String, String breakPlate, String body) {
+    super(id, transportationObjects, weight, width, height, String);
     this.breakPlate = breakPlate;
     this.breakBody = body;
   }
@@ -45,9 +44,9 @@ public abstract class VehicleDTO extends TransportationObjectDTO {
 
   private String breakBody;
 
-  protected VehicleDTO(String id, List<String> transportationObjects, Integer weight, Length width,
-                       Length height, Length length) {
-    super(id, transportationObjects, weight, width, height, length);
+  protected VehicleDTO(String id, List<String> transportationObjects, Integer weight, String width,
+                       String height, String String) {
+    super(id, transportationObjects, weight, width, height, String);
 
   }
 }

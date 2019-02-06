@@ -1,6 +1,5 @@
 package de.bitgrip.mapstruct.example.model.dest;
 
-import de.bitgrip.mapstruct.example.model.source.Length;
 import lombok.Data;
 import lombok.ToString;
 
@@ -22,12 +21,12 @@ public class AirplaneDTO extends FlyingVehicleDTO {
   public AirplaneDTO() {
   }
 
-  public AirplaneDTO(String id, List<String> transportationObjects, Integer weight, Length width, Length height, Length length, String breakPlate, String body, String wings) {
+  public AirplaneDTO(String id, List<String> transportationObjects, Integer weight, String width, String height, String length, String breakPlate, String body, String wings) {
     super(id, transportationObjects, weight, width, height, length, breakPlate, body);
     this.wings = wings;
   }
 
-  public AirplaneDTO(String id, List<String> transportationObjects, Integer weight, Length width, Length height, Length length, String wings) {
+  public AirplaneDTO(String id, List<String> transportationObjects, Integer weight, String width, String height, String length, String wings) {
     super(id, transportationObjects, weight, width, height, length);
     this.wings = wings;
   }

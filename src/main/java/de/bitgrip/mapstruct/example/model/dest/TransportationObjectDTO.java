@@ -23,14 +23,14 @@ public abstract class TransportationObjectDTO {
 
   private Integer weight;
 
-  private Length width;
+  private String width;
 
-  private Length height;
+  private String height;
 
-  private Length length;
+  private String length;
 
-  protected TransportationObjectDTO(String id, List<String> transportationObjects, Integer weight, Length width,
-                                    Length height, Length length) {
+  protected TransportationObjectDTO(String id, List<String> transportationObjects, Integer weight, String width,
+                                    String height, String length) {
     this.id = id;
     this.transportationObjects = transportationObjects;
     this.weight = weight;
