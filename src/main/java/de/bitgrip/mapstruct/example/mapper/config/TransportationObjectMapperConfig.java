@@ -1,7 +1,7 @@
 package de.bitgrip.mapstruct.example.mapper.config;
 
 import de.bitgrip.mapstruct.example.model.source.TransportationObject;
-import de.bitgrip.mapstruct.example.model.target.TransportationObjectDTO;
+import de.bitgrip.mapstruct.example.model.dest.TransportationObjectDTO;
 import org.mapstruct.MapperConfig;
 import org.mapstruct.MappingTarget;
 

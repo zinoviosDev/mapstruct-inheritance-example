@@ -1,7 +1,7 @@
 package de.bitgrip.mapstruct.example.mapper.config;
 
 import de.bitgrip.mapstruct.example.model.source.Vehicle;
-import de.bitgrip.mapstruct.example.model.target.VehicleDTO;
+import de.bitgrip.mapstruct.example.model.dest.VehicleDTO;
 import org.mapstruct.*;
 
 /**

@@ -2,7 +2,7 @@ package de.bitgrip.mapstruct.example.mapper;
 
 import de.bitgrip.mapstruct.example.mapper.config.CarMapperConfig;
 import de.bitgrip.mapstruct.example.model.source.Car;
-import de.bitgrip.mapstruct.example.model.target.CarDTO;
+import de.bitgrip.mapstruct.example.model.dest.CarDTO;
 import org.mapstruct.InheritConfiguration;
 import org.mapstruct.Mapper;
 

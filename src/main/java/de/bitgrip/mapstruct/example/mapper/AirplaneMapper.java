@@ -2,7 +2,7 @@ package de.bitgrip.mapstruct.example.mapper;
 
 import de.bitgrip.mapstruct.example.mapper.config.AirplanerMapperConfig;
 import de.bitgrip.mapstruct.example.model.source.Airplane;
-import de.bitgrip.mapstruct.example.model.target.AirplaneDTO;
+import de.bitgrip.mapstruct.example.model.dest.AirplaneDTO;
 import org.mapstruct.InheritConfiguration;
 import org.mapstruct.Mapper;
 

@@ -1,7 +1,7 @@
 package de.bitgrip.mapstruct.example.mapper.config;
 
 import de.bitgrip.mapstruct.example.model.source.FlyingVehicle;
-import de.bitgrip.mapstruct.example.model.target.FlyingVehicleDTO;
+import de.bitgrip.mapstruct.example.model.dest.FlyingVehicleDTO;
 import org.mapstruct.InheritConfiguration;
 import org.mapstruct.MapperConfig;
 import org.mapstruct.MappingTarget;
